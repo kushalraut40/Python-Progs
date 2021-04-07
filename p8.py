@@ -1,0 +1,11 @@
+#FileHandling
+f=open("C:\Users\kusha\Desktop\test\Kushal.txt",mode='r+b',encoding = 'utf-8')
+f.write("hello\n")
+f.write("Python File Handling Test\n")
+f.write("Okay thanks\n")
+print("\n Old Data in text file is:")
+print("\n Whole file now")
+f.read(1)
+f.read(2)
+f.read(3)
+f.read()
